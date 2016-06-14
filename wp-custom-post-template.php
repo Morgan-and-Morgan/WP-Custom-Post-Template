@@ -4,7 +4,7 @@ Plugin Name: WP Post Template Forked
 Plugin URI: www.dotsquares.com
 Description: This plugin allows theme authors to create a post template as well as page template for the single post.
 Author: Dotsquares forked by Morgan and Morgan
-Version: 1.0
+Version: 1.1
 Author URI: www.dotsquares.com
 */
 
