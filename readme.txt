@@ -1,9 +1,8 @@
-=== WP Custom Post Template === 
-Contributors: dswpsupport
+=== WP Custom Post Template Redux ===
+Contributors: matgargano, dswpsupport
 Tags: post template, custom template for post, wp custom post template, custom post type, custom template, post from template, posts, templates, custom post template, custom theme template, simple post templates, single post templates, template, theme template, wordpress post template, wp post template
 Requires at least: 3.0
 Tested up to: 4.2
-Donate link: 
 Stable tag: 2.1
 License: GPLv2 or later
 
@@ -22,7 +21,9 @@ Admin can use default setting for the custom post type plugin by simply clicking
 
 First note: Page templates use "Template Name:", whereas custom post templates use "WP Post Template:".
 
-Second note: You must have the custom post template files in your theme in the same directory/folder as your index.php template file, not in a sub-directory/sub-folder.
+Second note: Page templates use "WP Post Type:" plus the custom post type slug, e.g. "WP Post Type: my-fun-post-type"  you can use a single template for mutiple post types
+
+Third note: You must have the custom post template files in your theme in the same directory/folder as your index.php template file, not in a sub-directory/sub-folder.
 
 
  
@@ -44,7 +45,7 @@ Second note: You must have the custom post template files in your theme in the s
 1. Login into your WordPress admin panel
 2. Navigate to Plugins => Add New
 3. Click Upload 
-4. Click Choose File and select the wp-custom-post-template.zip.
+4. Click Choose File and select the zip file.
 5. Click Install Now.
 6. Activate the plugin through the 'Plugins' menu in WordPress.
 7. Go to Dashboard => WP Post Template and set your general setting.
@@ -59,20 +60,18 @@ Second note: You must have the custom post template files in your theme in the s
 3. This will delete all the plugin files from the server as well as erasing all options the plugin has stored in the database.
 
 == Frequently Asked Questions ==
-Write an email us on : info@dotsquares.com
 
-
-== Screenshots ==
-
-1. screenshot-1.jpg
-2. screenshot-2.jpg
-3. screenshot-3.jpg
-4. screenshot-4.jpg
 
 == Upgrade Notice ==
-This is first release. 
+Forked from WP Custom Post Template 1.0 (https://wordpress.org/plugins/wp-custom-post-template/)
 
 == Changelog ==
+
+= 1.3 =
+* Forked plugin
+* added the ability to use post types in the template files
+* redid the admin screen -- its now under settings
+* reworked some of the code
 
 = 1.1 - 2015-07-18 =
 * Updated according to new wp version functions.
