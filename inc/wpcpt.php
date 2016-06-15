@@ -101,7 +101,13 @@ class WPCPT {
 					$template_data = implode( '', file( $template ) );
 
 					$name = '';
-					if ( preg_match( '|WP Post Template:\s*(.*)$|mi', $template_data, $name ) && preg_match( '|WP Post Type:\s*(' . get_current_screen()->post_type . ')$|mi', $template_data, $matches ) ) {
+					if ( preg_match( '|WP Post Template:\s*(.*)$|mi', $template_data, $name ) &&
+					     (
+						     preg_match( '|WP Post Type:\s*(' . get_current_screen()->post_type . ')$|mi', $template_data, $matches ) ||
+					         ! preg_match( '|WP Post Type:|mi', $template_data, $matches )
+
+
+					     ) ) {
 						$name = _cleanup_header_comment( $name[1] );
 					}
 

@@ -2,9 +2,9 @@
 Contributors: matgargano, dswpsupport
 Tags: post template, custom template for post, wp custom post template, custom post type, custom template, post from template, posts, templates, custom post template, custom theme template, simple post templates, single post templates, template, theme template, wordpress post template, wp post template
 Requires at least: 3.0
-Tested up to: 4.2
-Stable tag: 2.1
-License: GPLv2 or later
+Tested up to: 4.5.2
+Stable tag: 1.3.1
+License: GPL2+ or later
 
 
 == Description ==
@@ -66,6 +66,9 @@ Third note: You must have the custom post template files in your theme in the sa
 Forked from WP Custom Post Template 1.0 (https://wordpress.org/plugins/wp-custom-post-template/)
 
 == Changelog ==
+
+= 1.3.1 =
+* Added backwards compatibility with forked plugin, if you do not explicitly specify a post type (that is active in the plugins settings) in the template the template will be available to any post type (that is active in the settings).
 
 = 1.3 =
 * Forked plugin

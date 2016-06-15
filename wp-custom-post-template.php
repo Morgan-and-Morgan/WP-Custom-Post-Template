@@ -1,12 +1,15 @@
 <?php
+
 /*
-Plugin Name: WP Custom Post Template
-Plugin URI: www.forthepeople.com
-Description: This is a forked version of dotsquares' WP Post Template plugin. It allows theme authors to create a post template as well as page template for the single post.
-Author: Morgan and Morgan (and work from the original forked plugin by dotsquares.com)
-Version: 1.3
-Author URI: www.forthepeople.com
-*/
+ * Plugin Name: WP Custom Post Template Redux
+ * Plugin URI: http://www.forthepeople.com
+ * Description: This is a forked version of dotsquares' WP Post Template plugin. It allows theme authors to create a post template as well as page template for the single post.
+ * Author: Morgan and Morgan (and work from the original forked plugin by dotsquares.com)
+ * Version: 1.3.1
+ * Author URI: http://www.forthepeople.com
+ * License: GPL2+
+ */
+
 
 
 require __DIR__ . '/inc/wpcpt-settings.php';
