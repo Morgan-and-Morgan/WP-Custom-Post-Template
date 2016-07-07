@@ -3,7 +3,7 @@ Contributors: matgargano, dswpsupport
 Tags: post template, custom template for post, wp custom post template, custom post type, custom template, post from template, posts, templates, custom post template, custom theme template, simple post templates, single post templates, template, theme template, wordpress post template, wp post template
 Requires at least: 3.0
 Tested up to: 4.5.2
-Stable tag: 1.3.1
+Stable tag: 1.4
 License: GPL2+ or later
 
 
@@ -21,12 +21,11 @@ Admin can use default setting for the custom post type plugin by simply clicking
 
 First note: Page templates use "Template Name:", whereas custom post templates use "WP Post Template:".
 
-Second note: Page templates use "WP Post Type:" plus the custom post type slug, e.g. "WP Post Type: my-fun-post-type"  you can use a single template for mutiple post types
+Second note: Page templates use "WP Post Type:" plus the custom post type slug, e.g. "WP Post Type: my-fun-post-type"  you can use a single template for multiple post types - if you leave it blank it will be available to all post types, which will maintain compatibility with WP Custom Post Template 1.0.
 
 Third note: You must have the custom post template files in your theme in the same directory/folder as your index.php template file, not in a sub-directory/sub-folder.
 
 
- 
 
 == Features ==
 
@@ -66,6 +65,9 @@ Third note: You must have the custom post template files in your theme in the sa
 Forked from WP Custom Post Template 1.0 (https://wordpress.org/plugins/wp-custom-post-template/)
 
 == Changelog ==
+
+= 1.4 =
+* Added the ability to add Advanced Custom Fields based on a post type selected
 
 = 1.3.1 =
 * Added backwards compatibility with forked plugin, if you do not explicitly specify a post type (that is active in the plugins settings) in the template the template will be available to any post type (that is active in the settings).

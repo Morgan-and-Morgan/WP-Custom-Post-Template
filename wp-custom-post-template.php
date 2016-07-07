@@ -14,15 +14,10 @@
 
 require __DIR__ . '/inc/wpcpt-settings.php';
 require __DIR__ . '/inc/wpcpt.php';
-
+require __DIR__ . '/inc/integrations/integrations.php';
 
 WPCPT_Settings::init();
 WPCPT::init();
-
-
-
-
-
 
 //register functon name for uninstall plugin
 register_deactivation_hook( __FILE__, 'wp_custom_post_template_deactivate' );
